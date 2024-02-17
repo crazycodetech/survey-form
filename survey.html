@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Survey form</title>
+    <h1>Survey form</h1>
+    <p>Thank you for take your time to fill the feedback</p>
+  </head>
+  <body>
+    <form id="survey-form">
+      <label for="name-label">Name</label>
+      <br>
+      <input type="text" id="name-label" required>
+      <br><br>
+      <label for="email-label">E-mail</label><br>
+      <input type="email" id="email-label" required><br><br>
+      <label for="number-label">Age</label><br>
+      <input type="number" min="18" max="70"><br><br>
+      <label for="dropdown">What language you prefer?</label><br>
+
+      <select id="dropdown" name="dropdown">
+      <option value="c">C</option>
+    <option value="java">Java</option>
+    <option value="python">Python</option>
+    <option value="Web">Web technologies</option>
+    </select>
+<br><br>
+<label>Should we improve our resources?</label><br>
+<input type="radio" name="se" id="yes" value="yes" required>
+<label for="yes">Yes</label>
+<input type="radio" name="se" id="no" value="no" required>
+<label for="no">No</label><br><br>
+
+<label>In which field we need to improve our resources?</label><br>
+<input type="checkbox" name="tech" id="front">
+<label for="front">Front-end</label><br>
+<input type="checkbox" name="tech" id="back">
+<label for="back">Back-end</label><br>
+<input type="checkbox" name="tech" id="data">
+<label for="data">Databases</label>
+<br><br>
+<label for="comm">Any comments or suggestions?
+  </label>
+  <textarea id="comm" rows="4" cols="50">
+</textarea><br><br>
+<label for="sub"></label>
+<input type="submit" id="sub" name="sub" value="submit">
+<br>
+
+
+
+
+    
+
